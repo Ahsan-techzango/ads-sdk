@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default native ad theme (dark) – override at runtime via NativeAdColors -->
+    <color name="ads_lib_native_bg">#1E1D20</color>
+    <color name="ads_lib_native_headline">#FFFFFF</color>
+    <color name="ads_lib_native_body">#CCFFFFFF</color>
+    <color name="ads_lib_ad_badge_bg">#FF3B30</color>
+    <color name="ads_lib_ad_badge_text">#000000</color>
+    <color name="ads_lib_cta_bg">#FFD60A</color>
+    <color name="ads_lib_cta_text">#000000</color>
+</resources>

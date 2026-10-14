@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ads_lib_native_padding">10dp</dimen>
+    <dimen name="ads_lib_native_icon_size">40dp</dimen>
+    <dimen name="ads_lib_native_badge_w">25dp</dimen>
+    <dimen name="ads_lib_native_badge_h">20dp</dimen>
+    <dimen name="ads_lib_native_cta_height">38dp</dimen>
+    <dimen name="ads_lib_native_corner">12dp</dimen>
+    <dimen name="ads_lib_native_badge_corner">3dp</dimen>
+    <dimen name="ads_lib_native_cta_corner">10dp</dimen>
+    <dimen name="ads_lib_native_media_small_w">165dp</dimen>
+    <dimen name="ads_lib_native_media_small_h">155dp</dimen>
+    <dimen name="ads_lib_native_media_large_h">135dp</dimen>
+</resources>

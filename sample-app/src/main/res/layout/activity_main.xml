@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button android:id="@+id/btnInterstitial" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Show Interstitial" />
+
+        <Button android:id="@+id/btnRewarded" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Show Rewarded" />
+
+        <Button android:id="@+id/btnBanner" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Load Banner" />
+
+        <FrameLayout android:id="@+id/bannerContainer" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="50dp" />
+
+        <Button android:id="@+id/btnNative" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Load Native" />
+
+        <FrameLayout android:id="@+id/nativeContainer" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="100dp" />
+
+        <Button android:id="@+id/btnAppOpen" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Show App-Open" />
+
+        <Button android:id="@+id/btnPremium" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Toggle Premium" />
+    </LinearLayout>
+</ScrollView>
